@@ -2,10 +2,10 @@
 let splashElement = document.getElementById('splash')
 
 //console.log(splashElement)
-document.getElementById('splash').innerHTML="Nyugottan. Nyugottan. Mért ne? És nyugottan.";
+//document.getElementById('splash').innerHTML="Nyugottan. Nyugottan. Mért ne? És nyugottan.";
 
 const splashText=[
-    'Nyugottan. Nyugottan. Mért ne? És nyugottan.',
+    'Nyugodtan. Nyugodtan. Mért ne? És nyugodtan.',
     'Nincs süti a sötétoldalon, néztem.',
     'MIT?',
     'Szeretem a bundás kenyeret',
