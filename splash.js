@@ -9,8 +9,11 @@ const splashText=[
     'Nincs süti a sötétoldalon, néztem.',
     'MIT?',
     'Szeretem a bundás kenyeret',
-    'MY LIFE FOR SUPER EARTH!!!'
-    
+    'MY LIFE FOR SUPER EARTH!!!',
+    'Hello there!',
+    'General Kenobi!',
+    'Follow the damn train CJ!'
+
 ]
 
 //console.log(splashText.length)
