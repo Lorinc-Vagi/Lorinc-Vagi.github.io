@@ -22,15 +22,15 @@ const splashText=[
     'https://www.youtube.com/watch?v=OJWJE0x7T4Q',
     'NININININI',
     'Dis iz ö begining OF butiful fendship',
-    'HONNAN VAN TÖKÖTÖK?',
-    '„Látott valamit? Nem, uram! Nem láttam, hogy megint a babáival játszik.”',
+    //'HONNAN VAN TÖKÖTÖK?',
+    //'„Látott valamit? Nem, uram! Nem láttam, hogy megint a babáival játszik.”',
     '„A gonosz mindig győzni fog, mert a jó buta.”',
     'Lorem ipsum dolor sit amet!',
     'Laudetur Iesus Christus!',
     'YELLOW CAAARRR!',
-    'TAHITI',
+    //'TAHITI',
     'I have a plan',
-    '🔫😎',
+    //'🔫😎',
     'We can`t expect God to do all the work'
 
 ]
