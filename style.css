@@ -45,9 +45,26 @@ h2{
 
 
 div.all{
-    background-color: rgba(255, 255, 255, 0.752);
+    /* background-color: rgba(255, 255, 255, 0.752);  Régi BGC*/
+    background-color: rgba(22, 22, 22, 0.559);
     border-radius: 3px;
     margin-bottom: 5%;
+    padding: 0.1cm 0.5cm 0.1cm 0.5cm;
+    /* padding-left: 0.5cm;
+    padding-right: 0.5cm; */
+}
+div.all>p{
+    color: rgb(192, 192, 192);
+}
+div.all>h3{
+    color: rgb(192, 192, 192);
+    text-decoration: underline;
+}
+div.all>p>a{
+    color: goldenrod;
+}
+div.all>p>a:hover{
+    color: rgb(255, 255, 255);
 }
 footer{
     background-color: rgb(192, 189, 189);
