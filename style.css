@@ -7,7 +7,7 @@ body{
 }
 h1{
     text-align: center;
-    color: #58A6FF;
+    color: #87bfff;
 }
 h2{
     text-align: center;
@@ -54,23 +54,44 @@ div.all{
     padding-right: 0.5cm; */
 }
 div.all>p{
-    color: rgb(192, 192, 192);
+    /* color: rgb(192, 192, 192); */
+    color: rgb(255, 255, 255);
+
 }
 div.all>h3{
-    color: rgb(192, 192, 192);
+    color: rgb(121, 190, 233);
     text-decoration: underline;
 }
 div.all>p>a{
     color: goldenrod;
+    
 }
 div.all>p>a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 114, 239);
 }
 footer{
-    background-color: rgb(192, 189, 189);
-    border-radius: 3px;
+    background-color: rgb(22, 22, 22, 0.559);
+    color: rgb(192, 192, 192);
+
+    /* border-radius: 3px; */
     position: fixed;
     bottom: 0;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    width: 100%;
+    padding-top: 0px;
+
 }
+footer>p{
+    margin: 0px;
+}
+footer>p>a{
+    color: goldenrod;
+}
+footer>p>a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
