@@ -1,3 +1,83 @@
+:root{
+  --munkaimPad:20px;
+}
+
+body{
+  background-color: #292929;
+  color: white;
+}
 h1{
   text-align: center;
+  background-color: rgb(80, 80, 80);
+  border-radius: 10px;
+  width: auto;
 }
+a.agomb{
+  
+  font-size: 20px;
+  background-color: rgb(54, 46, 97);
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+  transition: all 0.3s linear;
+}
+a.agomb:hover{
+  color: rgb(255, 255, 255);
+  
+
+  background-color: rgb(84, 72, 153);
+  /* color: turquoise; */
+}
+
+a{
+  color: rgb(111, 195, 255);
+}
+a:hover{
+  color: rgb(176, 222, 255);
+}
+
+.munkaim{
+  max-width: 300px;
+  border-radius: 20px;
+  background-color: #484848;
+  padding-top: 10px;
+  padding-right: var(--munkaimPad);
+  padding-left: var(--munkaimPad);
+  margin-left: 20px;
+  padding-bottom: var(--munkaimPad);
+}
+
+.munkak{
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: #5d5d5d;
+  padding-left: 15px;
+  padding-top: 1px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+table{
+  background-color: rgb(80, 80, 80);
+}
+.table{
+  margin:auto;
+  max-width: 90%;
+
+}
+table>tbody>tr{
+  background-color: #292929;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+

@@ -1,2 +1,0 @@
-old favicon
-<!-- I got the favicon from <a href="https://www.favicon.cc/?action=icon&file_id=820836" target="_blank">here</a>. -->
