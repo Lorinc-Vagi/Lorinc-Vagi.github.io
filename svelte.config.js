@@ -10,4 +10,19 @@ const config = {
 	}
 };
 
-export default config;
+const dev = process.env.NODE_ENV === 'development';
+const base = dev ? '' : '/Lorinc-Vagi.github.io'; // Replace with your repo name
+
+export default {
+kit: {
+	adapter: adapter({
+	fallback: 'index.html', // Fallback to SPA behavior
+	}),
+	paths: {
+	base,
+	},
+},
+};
+
+
+// export default config;
