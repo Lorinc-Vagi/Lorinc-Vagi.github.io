@@ -1,97 +1,84 @@
-
-body{
-    background-image: url(./img/indexBG.png);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-h1{
+:root{
+    --munkaimPad:20px;
+  }
+  
+  body{
+    background-color: #292929;
+    color: white;
+  }
+  h1{
     text-align: center;
-    color: #87bfff;
-}
-h2{
-    text-align: center;
-    color: rgb(255, 196, 0);
-}
-#splash {
-    animation: pop 0.58s infinite;
-    -webkit-animation: pop 0.58s infinite;
-}
-@keyframes pop {
-    from {
-        transform:scale(0.95)
-    }
-    50% {
-        transform:scale(1)
-    }
-    to {
-        transform:scale(0.95)
-    }
-}
-@-webkit-keyframes pop {
-    from {
-        -webkit-transform:scale(0.95)
-    }
-    50% {
-        -webkit-transform:scale(1)
-    }
-    to {
-        -webkit-transform:scale(0.95)
-    }
-}
-
-
-
-
-
-div.all{
-    /* background-color: rgba(255, 255, 255, 0.752);  Régi BGC*/
-    background-color: rgba(22, 22, 22, 0.559);
-    border-radius: 3px;
-    margin-bottom: 5%;
-    padding: 0.1cm 0.5cm 0.1cm 0.5cm;
-    /* padding-left: 0.5cm;
-    padding-right: 0.5cm; */
-}
-div.all>p{
-    /* color: rgb(192, 192, 192); */
-    color: rgb(255, 255, 255);
-
-}
-div.all>h3{
-    color: rgb(121, 190, 233);
-    text-decoration: underline;
-}
-div.all>p>a{
-    color: goldenrod;
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+    width: auto;
+  }
+  a.agomb{
     
-}
-div.all>p>a:hover{
-    color: rgb(255, 114, 239);
-}
-footer{
-    background-color: rgb(22, 22, 22, 0.559);
-    color: rgb(192, 192, 192);
-
-    /* border-radius: 3px; */
-    position: fixed;
-    bottom: 0;
-    /* align-items: center; */
-    text-align: center;
-    /* left: 50%;
-    transform: translateX(-50%); */
-    width: 100%;
-    padding-top: 0px;
-
-}
-footer>p{
-    margin: 0px;
-}
-footer>p>a{
-    color: goldenrod;
-}
-footer>p>a:hover{
+    font-size: 20px;
+    background-color: rgb(54, 46, 97);
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
     color: rgb(255, 255, 255);
-}
-
-
+    text-decoration: none;
+  
+    transition: all 0.3s linear;
+  }
+  a.agomb:hover{
+    color: rgb(255, 255, 255);
+    
+  
+    background-color: rgb(84, 72, 153);
+    /* color: turquoise; */
+  }
+  
+  a{
+    color: rgb(111, 195, 255);
+  }
+  a:hover{
+    color: rgb(176, 222, 255);
+  }
+  
+  .munkaim{
+    max-width: 300px;
+    border-radius: 20px;
+    background-color: #484848;
+    padding-top: 10px;
+    padding-right: var(--munkaimPad);
+    padding-left: var(--munkaimPad);
+    margin-left: 20px;
+    padding-bottom: var(--munkaimPad);
+  }
+  
+  .munkak{
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #5d5d5d;
+    padding-left: 15px;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+  
+  table{
+    background-color: rgb(80, 80, 80);
+  }
+  .table{
+    margin:auto;
+    max-width: 90%;
+  
+  }
+  table>tbody>tr{
+    background-color: #292929;
+    margin-right: 20px;
+    padding-right: 20px;
+  }
+  
+  td{
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+  
+  }
+  
+  
