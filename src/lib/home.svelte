@@ -1,7 +1,7 @@
 <script>
     import { Router, Route, Link } from 'svelte-routing';
     // import Home from './Home.svelte';
-    import munkaim from './munkaim.svelte';
+    // import munkaim from './munkaim.svelte';
   
     import {munkaimTomb} from "./KiemeltMunkaim";
     </script>
@@ -20,7 +20,7 @@
             </div>
             {/each}
         </div>
-        <a class="agomb" href="/munkaim">Minden órai munka mutatása</a>
+        <a class="agomb" href="./munkaim">Minden órai munka mutatása</a>
     </div>
     <div class="hasznos">
         <h2>Hasznos dolgok webfejlesztéshez</h2>
@@ -33,6 +33,6 @@
   
   <Router>
     <!-- <Route path="/" component={Home} /> -->
-    <Route path="/munkaim" component={munkaim} />
+    <!-- <Route path="/munkaim" component={munkaim} /> -->
   </Router>
     
