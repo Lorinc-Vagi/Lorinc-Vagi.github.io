@@ -72,6 +72,10 @@
     margin-right: 20px;
     padding-right: 20px;
   }
+  table>tbody>tr:hover{
+    background-color: #353535;
+
+  }
   
   td{
       padding-left: 10px;
