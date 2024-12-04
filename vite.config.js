@@ -1,12 +1,12 @@
-import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
+import { svelte } from '@sveltejs/vite-plugin-svelte'
 
+// https://vite.dev/config/
 export default defineConfig({
-	plugins: [sveltekit()],
-	base: '/Lorinc-Vagi.github.io/',
-    build: {
-        outDir: 'docs',
-        emptyOutDir: true
-    }
-	
-});
+  plugins: [svelte()],
+  base: '/',
+  build: {
+      outDir: 'docs',
+      emptyOutDir: true
+  }
+})
